@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인터파크</title>
+    <!-- fontawesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- aos cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- remixicon cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/swiper.css">
+</head>
+
+<body>
+    <!-- header start-->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="logo">
+        </a>
+
+        <nav class="navbar">
+            <a href="#tour">투어</a>
+            <a href="#shopping">쇼핑</a>
+            <a href="#books">도서</a>
+            <a href="#ticket">티켓</a>
+            <a href="#event">이벤트</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+       <!--  <div class="icons">
+            <div><i class="ri-user-line"></i></div>
+        </div> -->
+        <div class="search-form">
+            <input type="text" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+    </header>
+    <!-- header end-->
+
+    <!-- home section start-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="btn" data-aos="flip-down">
+                <a href="https://www.interpark.com/">인터파크 단독특가 진행!</a>
+            </h3>
+            <p data-aos="fade-right">그랜드하얏트<br>제주X981파크<br>
+                2인 패키지</p>
+            <!-- <a href="https://www.interpark.com/" class="btn">LEARN MORE</a> -->
+        </div>
+    </section>
+    <!-- home section end-->
+
+
+    <!-- world section start-->
+    <section class="tour" id="tour">
+        <h1 class="heading"><span>Tour</span></h1>
+        <div class="row">
+            <swiper-container class="mySwiper">
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/tour3.jpg" alt="">
+                        <div class="content">
+                            <h3>영국 | United Kingdom <br>런던아이</h3>
+                            <P>영국 런던 템즈강변에 있는 대관람차<br>
+                                전 세계인의 관광코스<br>
+                                <span>address : Riverside Building, County Hall, London SE1 7PB</span>
+                            </P>
+                            <a href="#" class="btn">자세히보기</a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/tour2.jfif" alt="">
+                        <div class="content">
+                            <h3>프랑스 | France <br>센 강</h3>
+                            <P>프랑스의 주요한 역사적 사건들이 일어난 곳<br>
+                                약 70분동안 유람선에서 에펠탑을 포함한 프랑스 파리 구경<br>
+                                <span>address : 75001 Paris France</span>
+                            </P>
+                            <a href="#" class="btn">자세히보기</a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="image">
+                        <img src="images/tour 1.png" alt="">
+                        <div class="content">
+                            <h3>싱가포르 | Singapore<br>머라이언 파크</h3>
+                            <P>마리나 베이 샌즈 호텔과 함께<br>
+                                싱가포르 대표 랜드마크<br>
+                                <span>address : 1 Fullerton Rd, 싱가포르 049213</span>
+                            </P>
+                            <a href="#" class="btn">자세히보기</a>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </swiper-slide>
+            </swiper-container>
+        </div>
+    </section>
+    <!-- world section end -->
+    <section class="shopping" id="shopping">
+        <h1 class="heading"><span>Shopping</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/good1.jpg" alt="">
+                <h3><span class="sale">29%</span> 16,880원</h3>
+                <p class="title">[쎈딜] 노스페이스화이트라벨 액션 테크 다운 자켓/코트</p>
+                <p>NJ1DN54J,K,L/NC1DN50J,K,L</p>
+                <!-- <a href="#" class="btn">MORE</a> -->
+            </div>
+            <div class="box">
+                <img src="images/good2.png" alt="">
+                <h3><span class="sale">43%</span> 26,910원</h3>
+                <p class="title">[쎈딜][쇼핑앱20%쿠폰] 연세우유 롤케잌</p>
+                <p>생크림롤/ 크림치즈롤 / 딸기우유롤 x 2박스<br> 원산지: 한국
+                </p>
+                <!-- <a href="#" class="btn">MORE</a> -->
+            </div>
+            <div class="box">
+                <img src="images/good3.jpg" alt="">
+                <h3><span class="sale">38%</span> 24,270원</h3>
+                <p class="title">[쎈딜] [단독 특가] 블랙독 캠핑 수납백</p>
+                <p>30L BD-SNB002/칸막이/방수</p>
+                <!-- <a href="#" class="btn">MORE</a> -->
+            </div>
+            <div class="box">
+                <img src="images/good4.jpg" alt="">
+                <h3><span class="sale">8%</span> 34,500원</h3>
+                <p class="title">[23년산 햅쌀/특등급/단일품종]수향미</p>
+                <p>골드퀸 10kg | 원산지: 국내산</p>
+                <!-- <a href="#" class="btn">MORE</a> -->
+            </div>
+        </div>
+    </section>
+    <!-- themes section start-->
+    <section class="books" id="books">
+        <h1 class="heading"><span>Books</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/b1.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>16,000원</h3>
+                    <h4>모든 관계는 말투에서 시작된다</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/b2.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>11,700원</h3>
+                    <h4>나를 바꾸면 모든것이 변한다</h4>
+                </div>
+            </div>
+            <div class="box">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="image">
+                    <img src="images/b3.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>31,050원</h3>
+                    <h4>데일카네기 인간관계론</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- themes section end-->
+
+    <!-- ticket section end -->
+    <!--
+     area section starts
+    <section class="area" id="area">
+        <h1 class="heading"><span>Accessory</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">스트랩</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#">
+                            <img data-aos="fade-up" src="images/strap1.JPG" alt="">
+                        </a>
+                        <p>픽디자인 슬라이드 라이트 스트랩</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="#">
+                            <img data-aos="fade-up" src="images/strab2.JPG" alt="">
+                        </a>
+                        <p>픽디자인 Slide light strap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">바디캡</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#">
+                            <img data-aos="fade-up" src="images/bodycap1.jpg" alt="">
+                        </a>
+                        <p>픽디자인 바디캡</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="#">
+                            <img data-aos="fade-up" src="images/bodycap2.jpg" alt="">
+                        </a>
+                        <p>픽디자인 Slide light strap</p>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content-box">
+                    <div class="title">인스탁스</div>
+                </div>
+                <div class="content">
+                    <div class="conbox1">
+                        <a href="#">
+                            <img data-aos="fade-up" src="images/goods1.jpg" alt="">
+                        </a>
+                        <p>픽디자인 바디캡</p>
+                    </div>
+                    <div class="conbox2">
+                        <a href="#">
+                            <img data-aos="fade-up" src="images/goods2.jpg" alt="">
+                        </a>
+                        <p>픽디자인 Slide light strap</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     area section end-->
+
+
+    <!-- airhotel section start-->
+    <section class="ticket" id="ticket">
+        <h1 class="heading"><span>Ticket</span></h1>
+        <div class="box-container">
+            <div class="wrapper">
+                <div class="img">
+                    <img src="images/ticket1.png" alt="">
+                    <div class="text">
+                        <h1>2023 긴 여행의 끝</h1>
+                        <h2>페퍼스톤 콘서트</h2>
+                        <h3>11.14(화) 20:00 티켓오픈</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="img">
+                    <img src="images/ticket2.png" alt="">
+                    <div class="text">
+                        <h1>연말 가족공연</h1>
+                        <h2>구두쇠 스쿠루지</h2>
+                        <h3>11.23(목) 16:00 티켓오픈</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="box-container">
+            <div class="wrapper">
+                <div class="img">
+                    <img src="images/ticket3.png" alt="">
+                    <div class="text">
+                        <h1>Musical Concert</h1>
+                        <h2>베르사유의 장미</h2>
+                        <h3>12.28(화) 17:00 티켓오픈</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="wrapper">
+                <div class="img">
+                    <img src="images/ticket4.png" alt="">
+                    <div class="text">
+                        <h1>전 세계를 감동시킨 뮤지컬</h1>
+                        <h2>백조의 호수</h2>
+                        <h3>12.29(화) 14:00 티켓오픈</h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- airhotel section end-->
+
+    <!-- event section starts -->
+    <section class="event" id="event">
+        <h1 class="heading"><span>Event</span></h1>
+        <div class="container">
+            <div class="box box1">
+                <div class="in">
+                    <h4>12,000원 쿠폰</h4>
+                    <p>SKT 고객 누구나</p>
+                </div>
+            </div>
+            <div class="box box2">
+                <div class="in">
+                    <h4>팔도마켓</h4>
+                    <p>코리아 세일페스타</p>
+                </div>
+            </div>
+            <div class="box box3">
+                <div class="in">
+                    <h4>12,000P 증정!</h4>
+                    <p>오직 SKT 고객만</p>
+                </div>
+            </div>
+            <div class="box box4">
+                <div class="in">
+                    <h4>겨울준비 BEST 모음전</h4>
+                    <p>중소벤처기업부</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- event section end -->
+    <!-- footer start-->
+    <section class="footer">
+        <div class="share">
+            <a href="#" target="_blank" class="fab fa-facebook-f"></a>
+            <a href="#" target="_blank" class="fab fa-k"></a>
+            <a href="#" target="_blank" class="fab fa-instagram"></a>
+            <a href="#" target="_blank" class="fab fa-youtube"></a>
+            <a href="#" target="_blank" class="fab fa-b"></a>
+        </div>
+
+        <div class="links">
+            <a href="#" target="_blank">회사소개</a>
+            <a href="#" target="_blank">고객센터</a>
+            <a href="#" target="_blank">이용약관</a>
+            <a href="#" target="_blank">개인정보처리방침</a>
+            <a href="#" target="_blank">티켓판매안내</a>
+            <a href="#" target="_blank">사업자정보확인</a>
+            <a href="#" target="_blank">여행약관</a>
+        </div>
+        <div class="fin">
+            <p>(주)인터파크트리플 | 서울시 강남구 삼성로 512 삼성동빌딩 10층<br>
+                관광사업증 등록번호 : 제2014-42호 | 대표이사 최휘영<br>
+                사업자등록번호 : 120-87-73486 | 통신판매업신고 2022-서울강남-02179</p>
+        </div>
+        <div class="credit">
+            created by <span>hr</span> | all right reserved
+        </div>
+    </section>
+    <!-- footer end-->
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
