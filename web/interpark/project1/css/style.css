@@ -691,7 +691,7 @@ section{
 
 @media (max-width:450px) {
     .home {
-        min-height: 50vh;
+        min-height: 70vh;
     }
     html{
         font-size: 50%;
