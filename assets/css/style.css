@@ -805,7 +805,7 @@ section {
   transition: 0.4s;
 }
 
-.portfolio .portfolio-item figure .link-preview,
+
 .portfolio .portfolio-item figure .link-details {
   position: absolute;
   display: flex;
@@ -822,6 +822,25 @@ section {
   overflow: hidden;
   font-size: 20px;
 }
+
+.portfolio .portfolio-item figure .link-preview{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 1;
+  line-height: 0;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  background: #fff;
+  border-radius: 50%;
+  transition: all 0.2s linear;
+  overflow: hidden;
+  font-size: 20px;
+}
+
+
 
 .portfolio .portfolio-item figure .link-preview i,
 .portfolio .portfolio-item figure .link-details i {
@@ -841,7 +860,7 @@ section {
 
 .portfolio .portfolio-item figure .link-preview {
   left: calc(50% - 18px);
-  top: calc(50% - 18px);
+  top: calc(56% - 18px);
 }
 
 .portfolio .portfolio-item figure .link-details {
@@ -851,7 +870,7 @@ section {
 
 .portfolio .portfolio-item figure:hover .link-preview {
   opacity: 1;
-  top: calc(50% - 5px);
+  top: calc(50% - 3.5px);
 }
 
 .portfolio .portfolio-item figure:hover .link-details {
