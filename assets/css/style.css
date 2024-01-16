@@ -1437,7 +1437,7 @@ section {
 
 @media only screen and (max-width: 400px){
   .portfolio .portfolio-item figure {
-    height: 224px;
+    height: 220px;
   }
   #hero h1{
     font-size: 26px;
