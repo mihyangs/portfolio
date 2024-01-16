@@ -752,7 +752,7 @@ img {
   }
 }
 
-@media screen and (min-width: 370px){
+@media screen and (min-width: 350px){
 
   .section1{
     padding-block: 3.5rem;
