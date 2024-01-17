@@ -359,11 +359,12 @@ h6 {
 #hero {
   width: 100%;
   height: 93vh;
-  background: url("../img/vv.mp4") center center;
-  background-size: cover;
+  /* background: url("../img/vv.mp4") center center; */
+  /* background-size: cover; */
   position: relative;
   margin-top: 70px;
   padding: 0;
+  
 }
 
 #hero:before {
@@ -1471,5 +1472,12 @@ section {
   .what-we-do .icon-box p{
     font-size:12px;
   }
-
+  #hero {
+    height: 19vh;
+  }
+  .bg-video__content {
+  width: 100%;
+  height:100%;
+  top:0;
+  }
 }
