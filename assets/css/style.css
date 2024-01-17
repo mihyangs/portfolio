@@ -360,13 +360,29 @@ h6 {
   width: 100%;
   height: 93vh;
   /* background: url("../img/vv.mp4") center center; */
-  /* background-size: cover; */
+  
   position: relative;
   margin-top: 70px;
   padding: 0;
   
 }
 
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+
+}
+
+.bg-video__content {
+  width: 100%;
+  height:100%;
+  top:0;
+  object-fit: cover;
+  }
 /* #hero:before {
   content: "";
   background: rgba(56, 64, 70, 0.3);
@@ -1473,8 +1489,19 @@ section {
     font-size:12px;
   }
   #hero {
-    height: 19vh;
+    height: 21vh;
   }
+
+  .bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  
+  }
+  
   .bg-video__content {
   width: 360px;
   height:100%;
