@@ -359,8 +359,8 @@ h6 {
 #hero {
   width: 100%;
   height: 93vh;
-  /* background: url("../img/vv.mp4") center center; */
-  
+ 
+  top:0;
   position: relative;
   margin-top: 70px;
   padding: 0;
